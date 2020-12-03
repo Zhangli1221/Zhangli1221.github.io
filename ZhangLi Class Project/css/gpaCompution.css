@@ -1,0 +1,49 @@
+.computingform{
+    margin: 20px;
+}
+.item{
+    margin-bottom: 20px;
+}
+.item span{
+    font-size: 20px;
+}
+.item label{
+    display: inline-block;
+    margin-left: 10px;
+}
+.item input[type=text]{
+    outline: none;
+    width: 200px;
+    height: 35px;
+    padding: 6px 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.item button{
+    background-color: #76becc;
+    color: white;
+    padding: 6px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    margin-left: 10px;
+}
+
+.option{
+    margin-bottom: 20px;
+}
+
+.option button{
+    background-color: #76becc;
+    color: white;
+    padding: 6px 20px;
+    height: 40px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    margin-right: 20px;
+}

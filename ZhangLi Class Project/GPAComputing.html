@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GPA computing</title>
+    <link rel="stylesheet" href="./css/public.css">
+    <link rel="stylesheet" href="./css/applicantAssis.css">
+    <link rel="stylesheet" href="./css/gpaCompution.css">
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/gpaCompution.js"></script>
+</head>
+
+<body>
+    <!-- 页面头部区域 -->
+    <header>
+        <!-- 头部标题 -->
+        <div class="w">
+            <div class="maintitle">
+                <img src="./images/sign.jpg" height="160px" alt="">
+                <div class="h">
+                    <h1>The Project of</h1>
+                    <h2>Mathematics and computer science</h2>
+                </div>
+            </div>
+        </div>
+
+        <!-- 头部导航栏 -->
+        <div class="w">
+            <div class="pagetitle">
+                <ul>
+                    <li><a href="./main.html">Homepage</a></li>
+                    <li class="shortline"></li>
+                    <li><a href="./CourseDescription.html">Course description of Computer Science</a></li>
+                    <li class="shortline"></li>
+                    <li><a href="./AplicantAssis.html">Application for teaching assistants</a></li>
+                    <li class="shortline"></li>
+                    <li><a href="./GPAComputing.html">GPA computing</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!-- 页面主题内容区域 -->
+    <div class="w">
+        <div class="content">
+            <!-- 左内容区域 -->
+            <div class="left">
+                <!-- 作者信息区域 -->
+                <div class="top">
+                    <div class="center">
+                        <img src="./images/pic1.jpg" alt="">
+                        <div class="massage">
+                            <p>Zhang Li</p>
+                            <p>Hubei Institute of Economics</p>
+                            <p>Information management and information system</p>
+                            <p>Q1742</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- 补充信息区域 -->
+                <div class="bottom">
+                    <h2>another info</h2>
+                </div>
+            </div>
+            <!-- 右内容区域 -->
+            <div class="right">
+                <h2>GPA computing</h2> 
+                <div class="computingform">
+                    <div class="option">
+                        <button>Add</button>
+                        <button>Calculate</button>
+                    </div>
+                    <div id="courses">
+                        <p class="item">
+                            <span>courses:</span>
+                            <label>credit hours</label>
+                            <input type="number" name="credit" placeholder="Credit is greater than 0">
+                            <label>letter grade</label>
+                            <input type="text" name="grade" placeholder="A-F should be inputed">
+                            <button>delete</button>
+                        </p>
+                        <p class="item">
+                            <span>courses:</span>
+                            <label>credit hours</label>
+                            <input type="number" name="credit" placeholder="Credit is greater than 0">
+                            <label>letter grade</label>
+                            <input type="text" name="grade" placeholder="A-F should be inputed">
+                            <button>delete</button>
+                        </p>
+                    </div>
+                    <p class="item">
+                        <span>Your GPA</span>
+                        <input type="text" id="gpa" style="margin-left: 10px;">
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 页面尾部区域 -->
+    <div class="w">
+        <footer>
+            <span>Zhang Li</span>
+            <span>Student number:</span>
+            <span>17080378</span>
+        </footer>
+    </div>
+</body>
+
+</html>
